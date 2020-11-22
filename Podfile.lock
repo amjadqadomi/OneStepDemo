@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.2)
+  - GradientProgressBar (2.0.3):
+    - LightweightObservable (~> 2.0)
+  - LightweightObservable (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - GradientProgressBar (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GradientProgressBar
+    - LightweightObservable
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  GradientProgressBar: f11fb57cffc615a4794da558ce283171a992130a
+  LightweightObservable: 52abe2a01c8273921b1f66cd66526eb3328ca35a
+
+PODFILE CHECKSUM: a35e449dfd62c8a20c6b3af19dd3a7e724d5c00d
+
+COCOAPODS: 1.8.4

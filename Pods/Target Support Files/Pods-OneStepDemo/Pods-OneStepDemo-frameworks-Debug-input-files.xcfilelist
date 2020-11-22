@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-OneStepDemo/Pods-OneStepDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/GradientProgressBar/GradientProgressBar.framework
+${BUILT_PRODUCTS_DIR}/LightweightObservable/LightweightObservable.framework

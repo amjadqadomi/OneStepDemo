@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Zvh-CB-ZEh" customClass="GradientProgressBarComponent" customModule="OneStepDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="463" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhE-9o-J3G" customClass="GradientProgressBar" customModule="GradientProgressBar">
+                    <rect key="frame" x="24" y="157" width="415" height="16"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="8N1-kP-vZn"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adh-3p-67R">
+                    <rect key="frame" x="24" y="177" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkm-oM-Q2c">
+                    <rect key="frame" x="397" y="177" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="1p6-8f-qNY">
+                    <rect key="frame" x="-9" y="105" width="66" height="50"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffI-Nu-E1y">
+                    <rect key="frame" x="-9" y="109" width="66" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="MIb-do-UdP"/>
+            <constraints>
+                <constraint firstItem="Lkm-oM-Q2c" firstAttribute="centerY" secondItem="adh-3p-67R" secondAttribute="centerY" id="0AC-Qa-5ca"/>
+                <constraint firstItem="ffI-Nu-E1y" firstAttribute="centerX" secondItem="1p6-8f-qNY" secondAttribute="centerX" id="3b2-j8-qNw"/>
+                <constraint firstItem="adh-3p-67R" firstAttribute="leading" secondItem="RhE-9o-J3G" secondAttribute="leading" id="90H-yG-1tw"/>
+                <constraint firstItem="ffI-Nu-E1y" firstAttribute="top" secondItem="1p6-8f-qNY" secondAttribute="top" constant="4" id="AyE-uv-zUW"/>
+                <constraint firstItem="MIb-do-UdP" firstAttribute="trailing" secondItem="RhE-9o-J3G" secondAttribute="trailing" constant="24" id="DyU-fk-xzg"/>
+                <constraint firstItem="ffI-Nu-E1y" firstAttribute="trailing" secondItem="1p6-8f-qNY" secondAttribute="trailing" id="Ke6-nf-ldA"/>
+                <constraint firstItem="Lkm-oM-Q2c" firstAttribute="trailing" secondItem="RhE-9o-J3G" secondAttribute="trailing" id="Mdb-hl-HTw"/>
+                <constraint firstItem="1p6-8f-qNY" firstAttribute="centerX" secondItem="RhE-9o-J3G" secondAttribute="leading" id="PxE-fH-vGG"/>
+                <constraint firstItem="RhE-9o-J3G" firstAttribute="top" secondItem="1p6-8f-qNY" secondAttribute="bottom" constant="2" id="g1W-jI-dsO"/>
+                <constraint firstItem="adh-3p-67R" firstAttribute="top" secondItem="RhE-9o-J3G" secondAttribute="bottom" constant="4" id="i7b-kG-xfP"/>
+                <constraint firstItem="RhE-9o-J3G" firstAttribute="leading" secondItem="MIb-do-UdP" secondAttribute="leading" constant="24" id="jS8-Wy-cpn"/>
+                <constraint firstItem="RhE-9o-J3G" firstAttribute="centerY" secondItem="MIb-do-UdP" secondAttribute="centerY" id="s9V-AA-Z4S"/>
+                <constraint firstItem="ffI-Nu-E1y" firstAttribute="leading" secondItem="1p6-8f-qNY" secondAttribute="leading" id="xvK-dd-kfB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bubbleConstraint" destination="PxE-fH-vGG" id="KQv-AW-8Rf"/>
+                <outlet property="bubbleImageView" destination="1p6-8f-qNY" id="JtQ-IB-8rU"/>
+                <outlet property="bubbleValueLabel" destination="ffI-Nu-E1y" id="LRU-0Z-V0m"/>
+                <outlet property="endLabel" destination="Lkm-oM-Q2c" id="bT4-GB-2b7"/>
+                <outlet property="gradientProgressBar" destination="RhE-9o-J3G" id="n1Z-KW-K3i"/>
+                <outlet property="startLabel" destination="adh-3p-67R" id="8WQ-QJ-e9B"/>
+            </connections>
+            <point key="canvasLocation" x="-152.89855072463769" y="323.4375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bubble" width="66" height="50"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
